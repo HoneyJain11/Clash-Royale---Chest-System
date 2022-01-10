@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class ChestView : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public ChestController ChestController;
+    public void SetReference (ChestController chestController)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        ChestController = chestController;
     }
 }
